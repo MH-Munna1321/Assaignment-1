@@ -1,6 +1,6 @@
 
 *{
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
 }
 
@@ -15,7 +15,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 24px 10px;
 }
 
 .nav-title{
@@ -34,4 +34,161 @@ Nav ul li{
     border-radius: 8px;
     color: white;
     border: none;
+}
+
+/* Banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 60px 0px 60px; */
+    background-color:#C6E4D6;
+    border-radius: 24px;
+    padding-right: 40px;
+}
+.dark-2{
+    color: #696262 ;
+}
+
+.banner-title{
+    font-size: 24px;
+   }
+
+   .banner-description{
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: bold;
+   }
+.banner-content{
+    max-width: 622px;
+    padding: 60px 117px ;
+    
+}
+.banner-image{
+    width: 474px;
+}
+.main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* vision */
+.vision-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.vision-description{
+    font-size: 16px;
+}
+
+.visions{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.vision{
+    /* margin: 80px 160px 0px 160px; */
+}
+.vision-1{
+    background-color: #6297f383;
+    padding: 24px;
+    border-radius: 5px;
+    }
+    .vision-titile {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .vision-button-1{
+        background-color: #4589fd;
+        padding: 11px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    .vision-2{
+        background-color: #C6E4D6;
+        padding: 24px;
+        border-radius: 5px;
+        }
+    
+
+    .vision-button-2{
+        background-color: #09A15C;
+        padding: 11px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .vision-3{
+        background-color: #F7EBCF;
+        padding: 24px;
+        border-radius: 5px;
+        }
+    
+
+    .vision-button-3{
+        background-color: #FFC239;
+        padding: 11px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    .rc-titile{
+        font-size: 32px;
+        font-weight: bold;
+        color: #0e0e0ed3;
+    }
+
+    .st-image{
+        border-radius: 25px;
+    }
+    .st-container{
+        display: flex;
+        gap: 30px;
+    }
+    .st-container-2{
+        display: flex;
+        gap: 30px;
+    }
+
+    .st-bg{
+        background-color: #d7d3d3e0;
+        padding: 48px;
+        border-radius: 10px;
+    }
+
+    .button-d{
+        background-color: wheat;
+        color: black;
+        padding: 40px;
+        font-size: 40px;
+        font-weight: bold;
+        border-radius: 20px;
+        border: none;
+        margin-right: 25px;
+    }
+
+    .text-align{
+        text-align: center;
+    }
+    .bt-align{
+        margin-right: 10px;
+    }
+input[type="text"]{
+    height: 64px;
+    width: 1032px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 25px;
 }
