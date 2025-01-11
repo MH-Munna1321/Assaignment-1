@@ -202,6 +202,11 @@ Nav ul li{
     .bt-align{
         margin-right: 10px;
     }
+
+    .donte{
+        margin-top: 32px;
+        padding: 0 104px;
+    }
 .donte input[type="text"]{
     height: 64px;
     width: 1032px;
