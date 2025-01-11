@@ -85,6 +85,9 @@ Nav ul li{
     
     margin: 80px 160px 80px 160px;
 }
+.tc-color{
+    color: #0e0e0ecc;
+}
 .vision-title{
     font-size: 40px;
     font-weight: bold;
